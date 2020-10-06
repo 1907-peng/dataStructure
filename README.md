@@ -1,3 +1,3 @@
 # dataStructure
-My datastructure homework
+My datastructure homework\n
 I will use it to record my homework.
