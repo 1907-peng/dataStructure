@@ -13,12 +13,12 @@ public class RunApplication {
         System.out.println("-----------Welcome To The XueYa Base Information Control System ---------");
 
         operationTips();
-        while(true) {
+        while (true) {
             functionService();
         }
     }
 
-    public static void operationTips(){
+    public static void operationTips() {
         System.out.println("1.增加成员\n2.删除成员\n3.改变成员的信息\n4.查找成员\n5.quit");
     }
 
@@ -32,7 +32,7 @@ public class RunApplication {
             case 1:
                 System.out.println(MemberService.add());
                 operationTips();
-               // MemberService.outputAllMembers();
+
 
                 break;
 
@@ -40,21 +40,20 @@ public class RunApplication {
             case 2:
                 System.out.println(MemberService.delete());
                 operationTips();
-                //MemberService.outputAllMembers();
+
 
                 break;
 
             case 3:
                 System.out.println(MemberService.change());
                 operationTips();
-                //MemberService.outputAllMembers();
+
 
                 break;
 
             case 4:
                 System.out.println(MemberService.search());
                 operationTips();
-                //MemberService.outputAllMembers();
 
                 break;
 
